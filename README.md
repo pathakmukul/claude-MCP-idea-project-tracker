@@ -1,5 +1,3 @@
-# claude-MCP-idea-project-tracker
-
 # Claude MCP IdeaFlow Project Tracker
 
 ## Overview
