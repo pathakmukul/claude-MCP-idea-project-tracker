@@ -1,0 +1,20 @@
+{
+  "name": "idea-bot-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/idea_bot.js",
+    "setup-db": "node dist/db/setup.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "sqlite3": "^5.1.6",
+    "globby": "^13.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/sqlite3": "^3.1.11",
+    "typescript": "^5.0.0"
+  }
+} 
