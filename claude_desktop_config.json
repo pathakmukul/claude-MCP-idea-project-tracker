@@ -1,0 +1,26 @@
+{
+    "mcpServers": {
+      "project_db": {
+        "command": "uvx",
+        "args": ["mcp-server-sqlite", "--db-path", "---path to project MCP_Claude/data/project_tracker.db"] // add path
+      },
+      "idea_bot": {
+        "command": "npm",
+        "args": ["start", "--prefix", "---path to project MCP_Claude/"] // add path
+      },
+      "project_files": {
+        "command": "npx",
+        "args": [
+          "-y", 
+          "@modelcontextprotocol/server-filesystem", 
+          " PATH TO YOUR PROJECTS", // add path
+          " PATH TO YOUR MCP_Claude/data" // add path
+        ]
+      }
+    },
+    "idea_addition": {
+        "command": "node",
+        "args": ["dist/idea_addition.js"]
+      }
+    
+}
