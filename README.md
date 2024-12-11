@@ -28,6 +28,11 @@ The application can manage the following project attributes:
 ### 4. Visual Dashboard
 - **Streamlit Dashboard**: An interactive dashboard built with Streamlit to visualize project data, including metrics, distributions, and detailed project information.
 
+### 5. Update claude_desktop_config.json
+- Open your Claude for Desktop App configuration at ~/Library/Application Support/Claude/claude_desktop_config.json in a text editor and update it with this repo's claude_desktop_config.json
+
+
+
 ## Getting Started
 
 ### Prerequisites
@@ -72,9 +77,6 @@ The application can manage the following project attributes:
    ```bash
    streamlit run src/dashboard.py
    ```
-
-3. **Access the dashboard:**
-   - Open your web browser and go to `http://localhost:8501` to view the dashboard.
 
 ## Usage
 
